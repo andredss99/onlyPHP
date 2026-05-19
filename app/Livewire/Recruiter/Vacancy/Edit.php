@@ -54,8 +54,8 @@ class Edit extends Component
         $this->stacks = $this->vacancy->stacks;
         $this->salary = $this->vacancy->salary;
         $this->type = $this->vacancy->type->value;
-        $this->contract_type = $this->vacancy->contract_type->value;
-        $this->location = $this->vacancy->location->value;
+        $this->contract_type = $this->vacancy->contract_type;
+        $this->location = $this->vacancy->location;
     }
 
     public function rules(): array
