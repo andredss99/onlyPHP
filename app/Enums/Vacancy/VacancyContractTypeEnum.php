@@ -4,9 +4,9 @@ namespace App\Enums\Vacancy;
 
 enum VacancyContractTypeEnum: string
 {
-    case Pj = 'pj';
-    case Clt = 'clt';
-    case Trainee = 'trainee';
+    case PJ = 'pj';
+    case CLT = 'clt';
+    case TRAINEE = 'trainee';
 
     public static function values(): array
     {

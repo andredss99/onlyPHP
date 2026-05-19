@@ -4,9 +4,9 @@ namespace App\Enums\Vacancy;
 
 enum VacancyLocationEnum: string
 {
-    case Remote = 'remote';
-    case Hybrid = 'hybrid';
-    case OnSite = 'on-site';
+    case REMOTE = 'remote';
+    case HYBRID = 'hybrid';
+    case ON_SITE = 'on-site';
 
     public static function values(): array
     {

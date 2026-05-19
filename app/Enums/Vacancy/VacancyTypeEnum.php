@@ -4,10 +4,10 @@ namespace App\Enums\Vacancy;
 
 enum VacancyTypeEnum: string
 {
-    case FullTime = 'full-time';
-    case PartTime = 'part-time';
-    case Contract = 'contract';
-    case Temporary = 'temporary';
+    case FULL_TIME = 'full-time';
+    case PART_TIME = 'part-time';
+    case CONTRACT = 'contract';
+    case TEMPORARY = 'temporary';
 
     public static function values(): array
     {
